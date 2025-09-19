@@ -27,5 +27,5 @@ def NextGeneratedElement(self, arr):
     return res
 
 arr = [1, 4, 2 , 6, 3, 5, 2]
-arr2 = NextGeneratedElement(0,arr)
+arr2 = NextGeneratedElement(0, arr)
 print(arr2)
