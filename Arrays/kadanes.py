@@ -14,7 +14,7 @@
 # Explanation: The subarray [-2] has the largest sum -2.
 
 
-def kadnes_arr(arr):
+def kadanes_arr(arr):
     n = len(arr)
     cur_sum = arr[0]
     max_sum = arr[0]
