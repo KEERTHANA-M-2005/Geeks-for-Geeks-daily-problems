@@ -20,3 +20,11 @@ def sumOfDigits(n):
         sum += l
         n //= 10
     return sum 
+
+
+#Another approach:
+
+def sumOfDigits(n):
+    if n == 0:
+        return 
+    return n%10 + sumOfDigits(n//10)
