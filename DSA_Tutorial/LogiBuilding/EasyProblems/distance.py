@@ -7,5 +7,5 @@
 # Explanation: Distance between (0, 0) 
 # and (2, -2) is 3.
 import math
-def difference(x1, x2, y1, y2):
+def distance(x1, x2, y1, y2):
     return round(math.sqrt((x2-x1)**2 + (y2-y1)**2))
